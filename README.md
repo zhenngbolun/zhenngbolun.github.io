@@ -27,32 +27,16 @@ homepage/
 
 ## 部署到 GitHub Pages
 
-### 1. 建仓库
+**完整的首次上线步骤见 [DEPLOY.md](DEPLOY.md)** —— 建仓库、申请 token、开启 Pages、验收与排错都在里面。
 
-| 仓库名 | 网址 | 说明 |
-|---|---|---|
-| `<用户名>.github.io` | `https://<用户名>.github.io` | **推荐**，根域名 |
-| 任意，如 `homepage` | `https://<用户名>.github.io/homepage/` | 路径多一层 |
-
-### 2. 推送
-
-在 `homepage/` 目录下执行：
+本地已经准备好了：仓库已初始化、首次提交已完成、分支为 `main`，只差推送到远端。
 
 ```bash
-git init
-git add .
-git commit -m "Add academic homepage"
-git branch -M main
-git remote add origin https://github.com/<用户名>/<仓库名>.git
+git remote add origin https://github.com/<用户名>/<用户名>.github.io.git
 git push -u origin main
 ```
 
-> 推的是 `homepage/` **里面的内容**，仓库根目录下应当直接看到 `index.html`。
-
-### 3. 打开 Pages
-
-仓库 → **Settings** → **Pages** → Source 选 **Deploy from a branch** →
-Branch **main**，目录 **/ (root)** → Save。等 1–2 分钟即可访问。
+> 仓库名用 `<用户名>.github.io` 才能拿到根域名地址。推的是 `homepage/` **里面的内容**，仓库根目录下应当直接看到 `index.html`。
 
 ---
 
