@@ -38,8 +38,7 @@
   }
 
   function actionLabel(p) {
-    if (p.type === 'preprint') return 'arXiv';
-    return 'DOI';
+    return p.venue === 'arXiv' ? 'arXiv' : 'DOI';
   }
 
   function pubHTML(p) {
