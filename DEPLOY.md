@@ -15,8 +15,8 @@
 
 | 项 | 状态 |
 |---|---|
-| 本地仓库 | 已初始化，分支 `main`，两次提交 |
-| 提交内容 | 13 个文件，约 380 KB |
+| 本地仓库 | 已初始化并提交，分支 `main`，工作区干净 |
+| 提交内容 | 12 个文件，共 118 KB |
 | 提交身份 | `Bolun Zheng <bolunzheng@hdu.edu.cn>`（仓库级，未改全局配置） |
 | 远端 origin | 已配置为 `git@github.com:zhenngbolun/zhenngbolun.github.io.git` |
 | SSH 密钥 | 已生成 `~/.ssh/id_ed25519`（ed25519，无口令），官方 host key 已预置 |
