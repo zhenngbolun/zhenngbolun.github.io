@@ -258,24 +258,6 @@ p:last-child { margin-bottom: 0; }
 }
 .news-table td strong { color: var(--ink); font-weight: 600; }
 
-/* ------------------------------ research ------------------------------ */
-
-.areas {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 22px 40px;
-}
-.area h3 {
-  font-size: 15.5px;
-  margin-bottom: 3px;
-}
-.area p {
-  font-size: 14.6px;
-  line-height: 1.62;
-  color: var(--ink-2);
-  margin: 0;
-}
-
 /* ------------------------------ publications ------------------------------ */
 
 ol.bib {
@@ -479,7 +461,6 @@ a.venue-badge.pre:hover { background: #fbeed9; color: var(--warm); }
   .about { grid-template-columns: 1fr; gap: 26px; }
   .portrait { order: -1; width: 132px; }
 
-  .areas { grid-template-columns: 1fr; gap: 18px; }
 
   li.pub { grid-template-columns: 72px minmax(0, 1fr); gap: 0 16px; }
   .venue-badge { font-size: 10.6px; }
