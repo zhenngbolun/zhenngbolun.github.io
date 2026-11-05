@@ -420,24 +420,6 @@ a.venue-badge.pre:hover { background: #fbeed9; color: var(--warm); }
 }
 .year-head:first-of-type { margin-top: 14px; }
 
-/* ------------------------------ simple blocks ------------------------------ */
-
-.course {
-  display: grid;
-  grid-template-columns: 118px 1fr;
-  gap: 16px;
-  padding: 7px 0;
-  font-size: 15.2px;
-}
-.course dt {
-  font-size: 13.2px;
-  color: var(--ink-3);
-  font-weight: 600;
-  letter-spacing: .01em;
-  padding-top: 2px;
-}
-.course dd { margin: 0; color: var(--ink-2); }
-
 /* ------------------------------ footer ------------------------------ */
 
 .site-foot {
@@ -505,7 +487,6 @@ a.venue-badge.pre:hover { background: #fbeed9; color: var(--warm); }
   li.pub { grid-template-columns: 1fr; gap: 7px; padding: 15px 0; }
   .venue-badge { width: auto; display: inline-block; padding: 3px 9px; margin: 0; font-size: 10.8px; }
 
-  .course { grid-template-columns: 1fr; gap: 1px; }
   .portrait { width: 112px; }
 }
 
