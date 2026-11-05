@@ -113,6 +113,7 @@ SELECTED = [
 
 # 开源代码 / 项目主页（按归一化标题前缀匹配）
 PROJECTS = {
+    "guidedldrgenerationforsingleimagehdrreconstructionusingexposurepriorsfrommultiexposureimages": "https://github.com/gguoshun/DG-SHDR",
     "perceptualqualityassessmentofrealworldnoiseinultrahighdefinitionimages": "https://github.com/zijieweng123/PINE",
     "smtpd:anewbenchmarkfortemporalpredictionofsocialmediapopularity": "https://github.com/zhuwei321/SMTPD",
     "quadbayerjointdemosaicinganddenoisingbasedondualencodernetwork": "https://github.com/HrLi97/Aaai2024_DRNet",
