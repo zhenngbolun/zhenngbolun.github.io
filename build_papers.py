@@ -118,6 +118,7 @@ PROJECTS = {
     "smtpd:anewbenchmarkfortemporalpredictionofsocialmediapopularity": "https://github.com/zhuwei321/SMTPD",
     "quadbayerjointdemosaicinganddenoisingbasedondualencodernetwork": "https://github.com/HrLi97/Aaai2024_DRNet",
     "domainpluscrosstransformdomainlearningtowardshighdynamicrangeimaging": "https://github.com/Pan-xiaokai/DomainPlus-Network",
+    "ehpeasegmentedarchitectureforenhancedhandposeestimation": "https://github.com/SereinNout/EHPE",
     "imagedemoireingwithlearnablebandpassfilters": "https://github.com/zhenngbolun/Learnbale_Bandpass_Filter",
     "learningfrequencydomainpriorsforimagedemoireing": "https://github.com/zhenngbolun/Learnbale_Bandpass_Filter",
     "implicitdualdomainconvolutionalnetworkforrobustcolorimagecompressionartifactreduction": "https://github.com/zhenngbolun/IDCN",
