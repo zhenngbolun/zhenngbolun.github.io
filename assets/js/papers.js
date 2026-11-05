@@ -6,12 +6,22 @@
 
   var ME = 'Bolun Zheng';
 
-  /* venues rendered in solid blue; everything else falls back to grey */
-  var TIER1 = [
-    'IEEE TPAMI', 'IEEE TIP', 'IEEE TCSVT', 'IEEE TMM', 'IEEE TCyb',
-    'IEEE TIFS', 'IEEE TGRS', 'IJCV', 'CVPR', 'AAAI', 'ACM MM',
-    'IEEE TCI', 'ACM TOMM'
-  ];
+  /* 每个刊物的专属色，类名在 style.css 的 .venue-badge.vb-* 里定义 */
+  var VENUE_CLASS = {
+    'IEEE TPAMI': 'tpami',
+    'IEEE TIP':   'tip',
+    'IEEE TCSVT': 'tcsvt',
+    'IEEE TMM':   'tmm',
+    'IEEE TCyb':  'tcyb',
+    'IEEE TIFS':  'tifs',
+    'IEEE TGRS':  'tgrs',
+    'IJCV':       'ijcv',
+    'CVPR':       'cvpr',
+    'AAAI':       'aaai',
+    'ACM MM':     'acmmm',
+    'IEEE TCI':   'tci',
+    'ACM TOMM':   'tomm'
+  };
 
   function esc(s) {
     return String(s).replace(/[&<>"]/g, function (c) {
@@ -27,7 +37,8 @@
 
   function badgeClass(p) {
     if (p.type === 'preprint') return 'venue-badge pre';
-    return TIER1.indexOf(p.venue) !== -1 ? 'venue-badge' : 'venue-badge tier2';
+    var c = VENUE_CLASS[p.venue];
+    return 'venue-badge' + (c ? ' vb-' + c : '');
   }
 
   function badge(p) {

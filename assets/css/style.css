@@ -287,24 +287,36 @@ li.pub:last-child { border-bottom: none; }
   line-height: 1.35;
   padding: 4px 2px;
   border-radius: 3px;
-  background: var(--brand);
-  color: #fff;
-  border-bottom: none;
-  margin-top: 3px;
-}
-a.venue-badge:hover { background: var(--brand-dk); color: #fff; border-bottom: none; }
-.venue-badge.tier2 {
   background: var(--bg-soft);
   color: var(--ink-2);
   border: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin-top: 3px;
 }
-a.venue-badge.tier2:hover { background: #eceff4; color: var(--ink); }
+/* 同一种淡色底 + 深色字，悬停整体压暗 5%，不改变色相 */
+a.venue-badge:hover { box-shadow: inset 0 0 0 99px rgba(0, 0, 0, .05); border-bottom: 1px solid var(--line); }
+
+/* ---------- 各期刊/会议专属色：同一刊物恒定同色，不同刊物色相拉开 ---------- */
+.venue-badge.vb-tpami { background: #f4ebfd; color: #4d2a86; border-color: #e7d7f7; }
+.venue-badge.vb-tip   { background: #e6eefc; color: #1c3a80; border-color: #d3e0f6; }
+.venue-badge.vb-tcsvt { background: #def4f0; color: #0b6259; border-color: #c6e9e2; }
+.venue-badge.vb-tmm   { background: #dff0f9; color: #115a78; border-color: #c9e3f0; }
+.venue-badge.vb-tcyb  { background: #e9e9fb; color: #33307f; border-color: #d8d8f2; }
+.venue-badge.vb-tifs  { background: #fbe4ee; color: #85264f; border-color: #f3cfe0; }
+.venue-badge.vb-tgrs  { background: #e4f4de; color: #2a6223; border-color: #d1e9c8; }
+.venue-badge.vb-ijcv  { background: #f3f2d9; color: #5c5c14; border-color: #e7e5c2; }
+.venue-badge.vb-cvpr  { background: #fde9db; color: #91430c; border-color: #f7d8c1; }
+.venue-badge.vb-aaai  { background: #fbe2e2; color: #8d2027; border-color: #f3cdcd; }
+.venue-badge.vb-acmmm { background: #fbf0d4; color: #7d5306; border-color: #f2e2b9; }
+.venue-badge.vb-tci   { background: #eceff4; color: #414b58; border-color: #dde2ea; }
+.venue-badge.vb-tomm  { background: #fbe6f7; color: #7d2771; border-color: #f2cfe9; }
+
 .venue-badge.pre {
   background: var(--warm-tint);
   color: var(--warm);
   border: 1px solid #f0e0c8;
 }
-a.venue-badge.pre:hover { background: #fbeed9; color: var(--warm); }
+a.venue-badge.pre:hover { background: #fbeed9; box-shadow: none; }
 
 .pub .title {
   font-size: 15.6px;
