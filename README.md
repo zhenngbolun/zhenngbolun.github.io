@@ -17,7 +17,8 @@ homepage/
 ├── assets/
 │   ├── css/style.css     全部样式
 │   ├── js/papers.js      渲染论文列表
-│   └── img/avatar.svg    头像占位（换成你的照片）
+│   ├── img/avatar.jpg    页面头像（600×600）
+│   └── img/avatar-64.png 浏览器标签图标（64×64）
 ├── build_papers.py       从 OpenAlex 同步论文（可选）
 ├── .nojekyll             告诉 GitHub Pages 不要跑 Jekyll
 └── .gitignore
@@ -83,8 +84,8 @@ python build_papers.py
 
 ### 换头像
 
-把正方形照片（≥400×400）命名为 `avatar.jpg` 放进 `assets/img/`，然后把两个 HTML 里
-全部 3 处 `avatar.svg` 改成 `avatar.jpg`（`index.html` 2 处、`publications.html` 1 处）。
+裁成正方形后覆盖 `assets/img/avatar.jpg`（600×600，页面头像）和 `assets/img/avatar-64.png`
+（64×64，标签图标）即可，HTML 不用动。裁图脚本见 `EDITING.md` 第四节。
 
 ---
 

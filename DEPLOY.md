@@ -17,13 +17,13 @@
 | 项 | 结果 |
 |---|---|
 | 本地仓库 | 已初始化，分支 `main` |
-| 提交内容 | 12 个文件，共 118 KB |
+| 提交内容 | 首次提交 12 个文件，共 118 KB（现状 13 个文件，约 166 KB） |
 | 提交身份 | `Bolun Zheng <bolunzheng@hdu.edu.cn>`（仓库级，未改全局配置） |
 | 远端 origin | `git@github.com:zhenngbolun/zhenngbolun.github.io.git` |
 | SSH 认证 | 已配置 ed25519 密钥，`ssh -T git@github.com` 返回 `Hi zhenngbolun!` |
 | 仓库可见性 | Public |
 | Pages | 首次推送后**自动启用**并部署 |
-| 线上验收 | 全部资源 200；93 篇论文 / 14 篇精选 / 全部带 DOI |
+| 线上验收 | 全部资源 200；93 篇论文 / 15 篇精选 / 全部带 DOI（2026-11-05 复核） |
 | 修复记录 | 预印本链接标签曾一律显示 `arXiv`，SSRN 那条标错，已改为按 venue 判断 |
 
 **过程中踩到的坑**：仓库最初被建成 `.github.io`（缺用户名前缀），已改名为 `zhenngbolun.github.io`。GitHub 只有这种命名才映射到根域名。

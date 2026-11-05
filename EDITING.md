@@ -155,12 +155,23 @@ python build_papers.py
 
 ## 四、换头像
 
-1. 正方形照片（≥400×400）命名为 `avatar.jpg`，放进 `assets/img/`
-2. 两个 HTML 文件里搜 `avatar.svg` 全改成 `avatar.jpg`，**共 3 处**：
-   - `index.html` 两处（第 10 行浏览器标签图标、第 64 行页面头像）
-   - `publications.html` 一处（第 9 行标签图标）
+1. 正方形照片（建议 ≥600×600），导出两个文件放进 `assets/img/`：
+   - `avatar.jpg` —— 页面头像，600×600
+   - `avatar-64.png` —— 浏览器标签图标，64×64
+2. 换图只需**覆盖这两个文件**，HTML 不用改。引用位置供参考：
+   - `index.html` 第 10 行（标签图标）、第 51 行（页面头像）
+   - `publications.html` 第 9 行（标签图标）
 
-照片会自动裁成圆形，取的是中心区域，构图请把人脸放中间偏上。
+照片由 CSS `border-radius: 50%` 裁成圆形，取的是正方形图片的中心，构图请把人脸放中间偏上。
+裁图命令（需要 Pillow）：
+
+```python
+from PIL import Image
+src = Image.open("原图.jpg").convert("RGB")
+box = (90, 60, 710, 680)          # 620px 正方形，上方留出头发余白
+src.crop(box).resize((600, 600), Image.LANCZOS).save("assets/img/avatar.jpg", quality=88, optimize=True)
+src.crop(box).resize((64, 64), Image.LANCZOS).save("assets/img/avatar-64.png", optimize=True)
+```
 
 ---
 
