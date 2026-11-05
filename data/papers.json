@@ -789,7 +789,7 @@
   ],
   "venue": "IEEE TCSVT",
   "venue_full": "IEEE Transactions on Circuits and Systems for Video Technology",
-  "year": 2025,
+  "year": 2026,
   "type": "journal",
   "doi": "10.1109/tcsvt.2025.3636874",
   "url": "https://doi.org/10.1109/tcsvt.2025.3636874",
@@ -860,7 +860,7 @@
   "url": "https://doi.org/10.1609/aaai.v38i7.28587",
   "cites": 16,
   "selected": true,
-  "rank": 8,
+  "rank": 9,
   "project": "https://github.com/HrLi97/Aaai2024_DRNet"
  },
  {
@@ -922,14 +922,14 @@
   ],
   "venue": "IEEE TCSVT",
   "venue_full": "IEEE Transactions on Circuits and Systems for Video Technology",
-  "year": 2024,
+  "year": 2025,
   "type": "journal",
   "doi": "10.1109/tcsvt.2024.3517840",
   "url": "https://doi.org/10.1109/tcsvt.2024.3517840",
   "cites": 9,
-  "selected": false,
-  "rank": 0,
-  "project": ""
+  "selected": true,
+  "rank": 8,
+  "project": "https://github.com/zqqqyu/HFUR"
  },
  {
   "title": "GoLDFormer: A global–local deformable window transformer for efficient image restoration",
@@ -1258,7 +1258,7 @@
   "url": "https://doi.org/10.1609/aaai.v37i1.25107",
   "cites": 33,
   "selected": true,
-  "rank": 9,
+  "rank": 10,
   "project": ""
  },
  {
@@ -1603,7 +1603,7 @@
   "url": "https://doi.org/10.1145/3503161.3547823",
   "cites": 18,
   "selected": true,
-  "rank": 10,
+  "rank": 11,
   "project": "https://github.com/Pan-xiaokai/DomainPlus-Network"
  },
  {
@@ -1797,7 +1797,7 @@
   "url": "https://doi.org/10.1109/tpami.2021.3115139",
   "cites": 84,
   "selected": true,
-  "rank": 12,
+  "rank": 13,
   "project": "https://github.com/zhenngbolun/Learnbale_Bandpass_Filter"
  },
  {
@@ -1819,7 +1819,7 @@
   "url": "https://doi.org/10.1109/tcsvt.2021.3123621",
   "cites": 28,
   "selected": true,
-  "rank": 11,
+  "rank": 12,
   "project": ""
  },
  {
@@ -1925,7 +1925,7 @@
   "url": "https://doi.org/10.1109/cvpr42600.2020.00369",
   "cites": 125,
   "selected": true,
-  "rank": 13,
+  "rank": 14,
   "project": "https://github.com/zhenngbolun/Learnbale_Bandpass_Filter"
  },
  {
@@ -2026,7 +2026,7 @@
   "url": "https://doi.org/10.1109/tcsvt.2019.2931045",
   "cites": 107,
   "selected": true,
-  "rank": 14,
+  "rank": 15,
   "project": "https://github.com/zhenngbolun/IDCN"
  },
  {

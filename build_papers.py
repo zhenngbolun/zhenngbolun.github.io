@@ -92,7 +92,7 @@ VENUE = {
     "SSRN Electronic Journal": ("SSRN", "SSRN preprint"),
 }
 
-# 代表性论文（手选 14 篇，列表顺序即首页展示顺序：由新到旧）
+# 代表性论文（手选 15 篇，列表顺序即首页展示顺序：由新到旧）
 # 顺序 = 首页 Selected Publications 的排列顺序，改这里就能改顺序
 SELECTED = [
     "perceptualqualityassessmentofrealworldnoiseinultrahighdefinitionimages",
@@ -102,6 +102,7 @@ SELECTED = [
     "ehpeasegmentedarchitectureforenhancedhandposeestimation",
     "smtpd:anewbenchmarkfortemporalpredictionofsocialmediapopularity",
     "pyramidlearnablebandpassfiltersforultrahighdefinitionimagedemoireing",
+    "hierarchicalfrequencybasedupsamplingandrefiningforhevccompressedvideoenhancement",
     "quadbayerjointdemosaicinganddenoisingbasedondualencodernetwork",
     "improvingdynamichdrimagingwithfusiontransformer",
     "domainpluscrosstransformdomainlearningtowardshighdynamicrangeimaging",
@@ -119,6 +120,7 @@ PROJECTS = {
     "quadbayerjointdemosaicinganddenoisingbasedondualencodernetwork": "https://github.com/HrLi97/Aaai2024_DRNet",
     "domainpluscrosstransformdomainlearningtowardshighdynamicrangeimaging": "https://github.com/Pan-xiaokai/DomainPlus-Network",
     "ehpeasegmentedarchitectureforenhancedhandposeestimation": "https://github.com/SereinNout/EHPE",
+    "hierarchicalfrequencybasedupsamplingandrefiningforhevccompressedvideoenhancement": "https://github.com/zqqqyu/HFUR",
     "imagedemoireingwithlearnablebandpassfilters": "https://github.com/zhenngbolun/Learnbale_Bandpass_Filter",
     "learningfrequencydomainpriorsforimagedemoireing": "https://github.com/zhenngbolun/Learnbale_Bandpass_Filter",
     "implicitdualdomainconvolutionalnetworkforrobustcolorimagecompressionartifactreduction": "https://github.com/zhenngbolun/IDCN",
@@ -162,6 +164,16 @@ def fix_title(t):
     return t
 
 
+# OpenAlex 的 publication_year 取的是 DOI 年份（早期访问年），与正式卷期年份不一致的，手工订正
+# 以 Crossref 的卷期为准：
+#   HEVC  -> TCSVT vol.35 no.5, 2025-05（DOI 前缀是 2024，早期访问）
+#   Video Demoiréing -> TCSVT vol.36 no.4, 2026-04
+YEAR_FIX = {
+    "hierarchicalfrequencybasedupsamplingandrefiningforhevccompressedvideoenhancement": 2025,
+    "videodemoireingwithspatialtemporalfilteringinfrequencydomain": 2026,
+}
+
+
 def key(t):
     return re.sub(r"[^a-z0-9]", "", (t or "").lower())
 
@@ -200,7 +212,7 @@ def main():
             "authors": authors,
             "venue": short,
             "venue_full": full,
-            "year": x.get("publication_year") or 0,
+            "year": YEAR_FIX.get(tn, x.get("publication_year") or 0),
             "type": kind,
             "doi": doi,
             "url": "https://doi.org/" + doi if doi else "",
