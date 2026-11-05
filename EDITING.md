@@ -163,15 +163,25 @@ python build_papers.py
    - `publications.html` 第 9 行（标签图标）
 
 照片由 CSS `border-radius: 50%` 裁成圆形，取的是正方形图片的中心，构图请把人脸放中间偏上。
-裁图命令（需要 Pillow）：
+当前这张是**整图不裁**直接缩放，这样圆里头像的占比最小；如果换成别的照片，按下面命令缩放即可
+（需要 Pillow）：
 
 ```python
 from PIL import Image
 src = Image.open("原图.jpg").convert("RGB")
-box = (90, 60, 710, 680)          # 620px 正方形，上方留出头发余白
-src.crop(box).resize((600, 600), Image.LANCZOS).save("assets/img/avatar.jpg", quality=88, optimize=True)
-src.crop(box).resize((64, 64), Image.LANCZOS).save("assets/img/avatar-64.png", optimize=True)
+src.resize((600, 600), Image.LANCZOS).save("assets/img/avatar.jpg", quality=88, optimize=True)
+src.resize((64, 64), Image.LANCZOS).save("assets/img/avatar-64.png", optimize=True)
 ```
+
+若原图人物偏小、圆里留白太多，再改成裁方形：
+
+```python
+box = (90, 60, 710, 680)          # 620px 正方形，依次为左、上、右、下
+src.crop(box).resize((600, 600), Image.LANCZOS).save("assets/img/avatar.jpg", quality=88, optimize=True)
+```
+
+头像的显示宽度在 `assets/css/style.css`：桌面 `grid-template-columns` 里的 `162px`，
+平板媒体查询 `.portrait { width: 112px }`，手机 `92px`。三处一起改才协调。
 
 ---
 

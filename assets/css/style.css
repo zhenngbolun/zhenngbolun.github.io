@@ -197,7 +197,7 @@ p:last-child { margin-bottom: 0; }
 
 .about {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 198px;
+  grid-template-columns: minmax(0, 1fr) 162px;
   gap: 46px;
   align-items: start;
 }
@@ -453,7 +453,7 @@ a.venue-badge.pre:hover { background: #fbeed9; box-shadow: none; }
   .nav-inner { padding: 0 20px; }
 
   .about { grid-template-columns: 1fr; gap: 26px; }
-  .portrait { order: -1; width: 132px; }
+  .portrait { order: -1; width: 120px; }
 
 
   li.pub { grid-template-columns: 72px minmax(0, 1fr); gap: 0 16px; }
@@ -499,7 +499,7 @@ a.venue-badge.pre:hover { background: #fbeed9; box-shadow: none; }
   li.pub { grid-template-columns: 1fr; gap: 7px; padding: 15px 0; }
   .venue-badge { width: auto; display: inline-block; padding: 3px 9px; margin: 0; font-size: 10.8px; }
 
-  .portrait { width: 112px; }
+  .portrait { width: 100px; }
 }
 
 @media print {
