@@ -6,6 +6,7 @@
 import json
 import os
 import re
+import unicodedata
 import urllib.request
 
 SRC = "oa_works.json"
@@ -91,26 +92,57 @@ VENUE = {
     "SSRN Electronic Journal": ("SSRN", "SSRN preprint"),
 }
 
-# 代表性论文（手选，覆盖各研究方向）
+# 代表性论文（手选 14 篇，列表顺序即首页展示顺序：由新到旧）
+# 顺序 = 首页 Selected Publications 的排列顺序，改这里就能改顺序
 SELECTED = [
-    "learningfrequencydomainpriorsforimagedemoireing",
-    "imagedemoireingwithlearnablebandpassfilters",
-    "eachpartmatterslocalpatterns facilitat ecrossviewgeolocalization",
-    "infraredsmalltargetdetectionwithscaleandlocationsensitivity",
-    "edgeguidedrecurrentpositioningnetworkforsalientobjectdetectioninopticalremotesensingimages",
-    "ageinvariantfacerecognitionbymultifeaturefusionanddecompositionwithselfattention",
-    "implicitdualdomainconvolutionalnetworkforrobustcolorimagecompressionartifactreduction",
-    "dynamicselectivenetworkforrgbdsalientobjectdetection",
-    "towardunderstandingandboostingadversarialtransferabilityfromadistributionalperspective",
-    "transformerbasedmultiscalefeatureintegrationnetworkforvideosaliencyprediction",
+    "perceptualqualityassessmentofrealworldnoiseinultrahighdefinitionimages",
+    "guidedldrgenerationforsingleimagehdrreconstructionusingexposurepriorsfrommultiexposureimages",
+    "learningscenepriorsfromsatelliteimageryforuavimagemotiondeblurring",
+    "videodemoireingwithspatialtemporalfilteringinfrequencydomain",
+    "ehpeasegmentedarchitectureforenhancedhandposeestimation",
+    "smtpd:anewbenchmarkfortemporalpredictionofsocialmediapopularity",
+    "pyramidlearnablebandpassfiltersforultrahighdefinitionimagedemoireing",
+    "quadbayerjointdemosaicinganddenoisingbasedondualencodernetwork",
     "improvingdynamichdrimagingwithfusiontransformer",
     "domainpluscrosstransformdomainlearningtowardshighdynamicrangeimaging",
-    "rethinkingoutofdistributiondetectionfromahumancentricperspective",
-    "quadbayerjointdemosaicinganddenoisingbasedondualencodernetwork",
-    "ifenet interactionfusionandenhancementnetworkforvdtsalientobjectdetection",
+    "cbren:convolutionalneuralnetworksforconstantbitratevideoqualityenhancement",
+    "learningfrequencydomainpriorsforimagedemoireing",
+    "imagedemoireingwithlearnablebandpassfilters",
+    "implicitdualdomainconvolutionalnetworkforrobustcolorimagecompressionartifactreduction",
 ]
 
-SELKEYS = [s.replace(" ", "") for s in SELECTED]
+# 开源代码 / 项目主页（按归一化标题前缀匹配）
+PROJECTS = {
+    "perceptualqualityassessmentofrealworldnoiseinultrahighdefinitionimages": "https://github.com/zijieweng123/PINE",
+    "smtpd:anewbenchmarkfortemporalpredictionofsocialmediapopularity": "https://github.com/zhuwei321/SMTPD",
+    "quadbayerjointdemosaicinganddenoisingbasedondualencodernetwork": "https://github.com/HrLi97/Aaai2024_DRNet",
+    "domainpluscrosstransformdomainlearningtowardshighdynamicrangeimaging": "https://github.com/Pan-xiaokai/DomainPlus-Network",
+    "imagedemoireingwithlearnablebandpassfilters": "https://github.com/zhenngbolun/Learnbale_Bandpass_Filter",
+    "implicitdualdomainconvolutionalnetworkforrobustcolorimagecompressionartifactreduction": "https://github.com/zhenngbolun/IDCN",
+}
+
+def norm(s):
+    """归一化：é 之类的重音字母先分解成基本字母再保留，避免 Demoiréing -> demoiring。"""
+    s = unicodedata.normalize("NFKD", s or "")
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+SELKEYS = [norm(s) for s in SELECTED]
+
+
+def sel_rank(k):
+    """返回 1-based 顺序号；不在精选列表中返回 0。"""
+    for i, s in enumerate(SELKEYS, 1):
+        if k.startswith(s):
+            return i
+    return 0
+
+
+def project_of(k):
+    for s, url in PROJECTS.items():
+        if k.startswith(norm(s)):
+            return url
+    return ""
 
 # OpenAlex 标题里已知的拼写/排版错误
 TITLE_FIX = [
@@ -159,6 +191,7 @@ def main():
         t = x.get("type") or "article"
         kind = "conference" if "conference" in t else ("preprint" if "preprint" in t else "journal")
         doi = (x.get("doi") or "").replace("https://doi.org/", "")
+        tn = norm(fix_title((x.get("title") or "").strip().rstrip(".")))
         papers.append({
             "title": fix_title((x.get("title") or "").strip().rstrip(".")),
             "authors": authors,
@@ -169,7 +202,9 @@ def main():
             "doi": doi,
             "url": "https://doi.org/" + doi if doi else "",
             "cites": x.get("cited_by_count") or 0,
-            "selected": any(k.startswith(s) for s in SELKEYS if len(s) > 25),
+            "selected": sel_rank(tn) > 0,
+            "rank": sel_rank(tn),
+            "project": project_of(tn),
         })
 
     papers.sort(key=lambda p: (-p["year"], -p["cites"], p["title"]))

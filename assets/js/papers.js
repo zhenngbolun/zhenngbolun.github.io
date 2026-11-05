@@ -41,15 +41,26 @@
     return p.venue === 'arXiv' ? 'arXiv' : 'DOI';
   }
 
+  /* DOI 按钮在前，Project 按钮紧随其后 */
+  function actionsHTML(p) {
+    var out = [];
+    if (p.url) {
+      out.push('<a class="btn" href="' + p.url + '" target="_blank" rel="noopener">' +
+        actionLabel(p) + '</a>');
+    }
+    if (p.project) {
+      out.push('<a class="btn btn-project" href="' + p.project +
+        '" target="_blank" rel="noopener">Project</a>');
+    }
+    return out.length ? '<div class="actions">' + out.join('') + '</div>' : '';
+  }
+
   function pubHTML(p) {
     var title = p.url
       ? '<a href="' + p.url + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>'
       : esc(p.title);
 
-    var actions = p.url
-      ? '<div class="actions"><a class="btn" href="' + p.url + '" target="_blank" rel="noopener">' +
-        actionLabel(p) + '</a></div>'
-      : '';
+    var actions = actionsHTML(p);
 
     return '<li class="pub">' +
         '<div>' + badge(p) + '</div>' +
@@ -78,11 +89,18 @@
       });
   }
 
-  /* ---------------- homepage: selected only ---------------- */
+  /* ---------------- homepage: selected only, reverse chronological ---------------- */
   function initSelected(papers) {
     var el = document.getElementById('selected-pubs');
     if (!el) return;
-    el.innerHTML = papers.filter(function (p) { return p.selected; }).map(pubHTML).join('');
+    var list = papers.filter(function (p) { return p.selected; });
+    /* rank 为手工指定顺序（1 为最新）；缺省时按年份倒序 */
+    list.sort(function (a, b) {
+      var ra = a.rank || 999, rb = b.rank || 999;
+      if (ra !== rb) return ra - rb;
+      return b.year - a.year;
+    });
+    el.innerHTML = list.map(pubHTML).join('');
   }
 
   /* ---------------- publications page: grouped + filter ---------------- */

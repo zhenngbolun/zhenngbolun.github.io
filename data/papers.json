@@ -18,7 +18,9 @@
   "doi": "10.1016/j.patcog.2026.114003",
   "url": "https://doi.org/10.1016/j.patcog.2026.114003",
   "cites": 1,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "A Training-Free Framework and Benchmark For Panoramic Human Pose Estimation",
@@ -38,7 +40,9 @@
   "doi": "10.2139/ssrn.6379323",
   "url": "https://doi.org/10.2139/ssrn.6379323",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Depth map super resolution grounded in the multi-dimensional collaborative guidance",
@@ -57,7 +61,9 @@
   "doi": "10.1016/j.neunet.2026.109551",
   "url": "https://doi.org/10.1016/j.neunet.2026.109551",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Enhancing out-of-distribution detection with bilateral distribution score",
@@ -75,7 +81,9 @@
   "doi": "10.1016/j.neunet.2026.108718",
   "url": "https://doi.org/10.1016/j.neunet.2026.108718",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Global–Local Interaction and Recalibration Network for Salient Object Detection in Optical Remote Sensing Images",
@@ -95,7 +103,9 @@
   "doi": "10.1109/tcyb.2026.3696712",
   "url": "https://doi.org/10.1109/tcyb.2026.3696712",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Guided LDR Generation for Single-Image HDR Reconstruction Using Exposure Priors From Multi-Exposure Images",
@@ -115,7 +125,9 @@
   "doi": "10.1109/tcsvt.2026.3709976",
   "url": "https://doi.org/10.1109/tcsvt.2026.3709976",
   "cites": 0,
-  "selected": false
+  "selected": true,
+  "rank": 2,
+  "project": ""
  },
  {
   "title": "LLFeat: Noise-Aware Feature Matching Under Various Low-Light Conditions",
@@ -137,7 +149,9 @@
   "doi": "10.1109/tcsvt.2026.3662204",
   "url": "https://doi.org/10.1109/tcsvt.2026.3662204",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Learning Scene Priors From Satellite Imagery for UAV Image Motion Deblurring",
@@ -157,7 +171,9 @@
   "doi": "10.1109/tgrs.2026.3709113",
   "url": "https://doi.org/10.1109/tgrs.2026.3709113",
   "cites": 0,
-  "selected": false
+  "selected": true,
+  "rank": 3,
+  "project": ""
  },
  {
   "title": "Low-light Image Enhancement with Retinex Decomposition in Latent Space",
@@ -177,7 +193,9 @@
   "doi": "10.48550/arxiv.2603.15131",
   "url": "https://doi.org/10.48550/arxiv.2603.15131",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "MMToT: Multi-Modal Token-of-Thought Reasoning for Large Models",
@@ -196,7 +214,9 @@
   "doi": "10.1109/tmm.2026.3654463",
   "url": "https://doi.org/10.1109/tmm.2026.3654463",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Multi-scale sampling and feature fusion for dynamic human rendering",
@@ -216,7 +236,9 @@
   "doi": "10.1016/j.jvcir.2026.104766",
   "url": "https://doi.org/10.1016/j.jvcir.2026.104766",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Perceptual Quality Assessment of Real-World Noise in Ultra-High-Definition Images",
@@ -236,7 +258,9 @@
   "doi": "10.1109/tip.2026.3739609",
   "url": "https://doi.org/10.1109/tip.2026.3739609",
   "cites": 0,
-  "selected": false
+  "selected": true,
+  "rank": 1,
+  "project": "https://github.com/zijieweng123/PINE"
  },
  {
   "title": "Position-Sensitive painterly image harmonization",
@@ -259,7 +283,9 @@
   "doi": "10.1016/j.neunet.2026.108872",
   "url": "https://doi.org/10.1016/j.neunet.2026.108872",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "RepeHand: Lightweight 3D interacting-hand reconstruction with perception enhancement from a monocular image",
@@ -277,7 +303,9 @@
   "doi": "10.1016/j.asoc.2026.116519",
   "url": "https://doi.org/10.1016/j.asoc.2026.116519",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "S5Net: Split-Select-Splice-Spiral-Spread Network for Underwater Salient Object Detection",
@@ -296,7 +324,9 @@
   "doi": "10.1109/tmm.2026.3734760",
   "url": "https://doi.org/10.1109/tmm.2026.3734760",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Suppressing block artifacts in ultra-high-definition raw low-light image enhancement",
@@ -317,7 +347,9 @@
   "doi": "10.1016/j.neucom.2026.135214",
   "url": "https://doi.org/10.1016/j.neucom.2026.135214",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Unsupervised Single-Image High Dynamic Range Rendering via Multi-Exposure Priors",
@@ -337,7 +369,9 @@
   "doi": "10.1631/eng.itee.2025.0116",
   "url": "https://doi.org/10.1631/eng.itee.2025.0116",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "IFENet: Interaction, Fusion, and Enhancement Network for V-D-T Salient Object Detection",
@@ -357,7 +391,9 @@
   "doi": "10.1109/tip.2025.3527372",
   "url": "https://doi.org/10.1109/tip.2025.3527372",
   "cites": 30,
-  "selected": true
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Artificial intelligence in rheumatology: A transformative perspective",
@@ -379,7 +415,9 @@
   "doi": "10.1515/jtim-2025-0046",
   "url": "https://doi.org/10.1515/jtim-2025-0046",
   "cites": 11,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Mixture of causal experts: A causal perspective to build dual-level mixture-of-experts models",
@@ -398,7 +436,9 @@
   "doi": "10.1016/j.eswa.2025.127422",
   "url": "https://doi.org/10.1016/j.eswa.2025.127422",
   "cites": 8,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Pyramid Learnable Bandpass Filters for Ultra-High-Definition Image Demoiréing",
@@ -418,7 +458,9 @@
   "doi": "10.1109/tcsvt.2025.3545898",
   "url": "https://doi.org/10.1109/tcsvt.2025.3545898",
   "cites": 8,
-  "selected": false
+  "selected": true,
+  "rank": 7,
+  "project": ""
  },
  {
   "title": "MEF-GD: Multimodal Enhancement and Fusion Network for Garment Designer",
@@ -438,7 +480,9 @@
   "doi": "10.1109/tcsvt.2025.3603967",
   "url": "https://doi.org/10.1109/tcsvt.2025.3603967",
   "cites": 5,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Counterfactual GAN for debiased text-to-image synthesis",
@@ -460,7 +504,9 @@
   "doi": "10.1007/s00530-024-01633-0",
   "url": "https://doi.org/10.1007/s00530-024-01633-0",
   "cites": 3,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "DCT-DiffPose: A Lightweight Diffusion Model With Multi-Hypothesis for 3D Human Pose Estimation",
@@ -479,7 +525,9 @@
   "doi": "10.1109/access.2025.3563898",
   "url": "https://doi.org/10.1109/access.2025.3563898",
   "cites": 3,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Progressive Inertial Poser: Progressive Real-Time Kinematic Chain Estimation for 3-D Full-Body Pose From Three IMU Sensors",
@@ -500,7 +548,9 @@
   "doi": "10.1109/tim.2025.3570339",
   "url": "https://doi.org/10.1109/tim.2025.3570339",
   "cites": 3,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "SMTPD: A New Benchmark for Temporal Prediction of Social Media Popularity",
@@ -522,7 +572,9 @@
   "doi": "10.1109/cvpr52734.2025.01756",
   "url": "https://doi.org/10.1109/cvpr52734.2025.01756",
   "cites": 3,
-  "selected": false
+  "selected": true,
+  "rank": 6,
+  "project": "https://github.com/zhuwei321/SMTPD"
  },
  {
   "title": "DepthDark: Robust Monocular Depth Estimation for Low-Light Environments",
@@ -542,7 +594,9 @@
   "doi": "10.1145/3746027.3754871",
   "url": "https://doi.org/10.1145/3746027.3754871",
   "cites": 2,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "SympCoughNet: symptom assisted audio-based COVID-19 detection",
@@ -561,7 +615,9 @@
   "doi": "10.3389/fdgth.2025.1551298",
   "url": "https://doi.org/10.3389/fdgth.2025.1551298",
   "cites": 2,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Constituency-Tree-Induced Vision–Language Alignment for Multimodal Large Language Models",
@@ -582,7 +638,9 @@
   "doi": "10.1109/tcsvt.2025.3639574",
   "url": "https://doi.org/10.1109/tcsvt.2025.3639574",
   "cites": 1,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Gaussian bare-bone JAYA algorithm for multi-threshold medical image segmentation",
@@ -603,7 +661,9 @@
   "doi": "10.1038/s41598-025-26861-w",
   "url": "https://doi.org/10.1038/s41598-025-26861-w",
   "cites": 1,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Knowledge and multi-detail enhanced GAN for human-driven text-to-image synthesis",
@@ -624,7 +684,9 @@
   "doi": "10.1016/j.visinf.2025.100283",
   "url": "https://doi.org/10.1016/j.visinf.2025.100283",
   "cites": 1,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Reference-aware image harmonization",
@@ -644,7 +706,9 @@
   "doi": "10.1016/j.neunet.2025.108439",
   "url": "https://doi.org/10.1016/j.neunet.2025.108439",
   "cites": 1,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Capturing Stable HDR Videos Using a Dual-Camera System",
@@ -664,7 +728,9 @@
   "doi": "10.48550/arxiv.2507.06593",
   "url": "https://doi.org/10.48550/arxiv.2507.06593",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "EHPE: A Segmented Architecture for Enhanced Hand Pose Estimation",
@@ -683,7 +749,9 @@
   "doi": "10.1145/3746027.3755000",
   "url": "https://doi.org/10.1145/3746027.3755000",
   "cites": 0,
-  "selected": false
+  "selected": true,
+  "rank": 5,
+  "project": ""
  },
  {
   "title": "GCBF: Grouped Cross-Band Fusion Network for Multispectral Scene Classification",
@@ -702,7 +770,9 @@
   "doi": "10.1109/tgrs.2025.3572360",
   "url": "https://doi.org/10.1109/tgrs.2025.3572360",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Video Demoiréing With Spatial–Temporal Filtering in Frequency Domain",
@@ -724,7 +794,9 @@
   "doi": "10.1109/tcsvt.2025.3636874",
   "url": "https://doi.org/10.1109/tcsvt.2025.3636874",
   "cites": 0,
-  "selected": false
+  "selected": true,
+  "rank": 4,
+  "project": ""
  },
  {
   "title": "Infrared Small Target Detection with Scale and Location Sensitivity",
@@ -742,7 +814,9 @@
   "doi": "10.1109/cvpr52733.2024.01656",
   "url": "https://doi.org/10.1109/cvpr52733.2024.01656",
   "cites": 280,
-  "selected": true
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "SDPL: Shifting-Dense Partition Learning for UAV-View Geo-Localization",
@@ -763,7 +837,9 @@
   "doi": "10.1109/tcsvt.2024.3424196",
   "url": "https://doi.org/10.1109/tcsvt.2024.3424196",
   "cites": 73,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Quad Bayer Joint Demosaicing and Denoising Based on Dual Encoder Network with Joint Residual Learning",
@@ -783,7 +859,9 @@
   "doi": "10.1609/aaai.v38i7.28587",
   "url": "https://doi.org/10.1609/aaai.v38i7.28587",
   "cites": 16,
-  "selected": true
+  "selected": true,
+  "rank": 8,
+  "project": "https://github.com/HrLi97/Aaai2024_DRNet"
  },
  {
   "title": "Non-local degradation modeling for spatially adaptive single image super-resolution",
@@ -803,7 +881,9 @@
   "doi": "10.1016/j.neunet.2024.106293",
   "url": "https://doi.org/10.1016/j.neunet.2024.106293",
   "cites": 12,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Aerial-view geo-localization based on multi-layer local pattern cross-attention network",
@@ -823,7 +903,9 @@
   "doi": "10.1007/s10489-024-05777-4",
   "url": "https://doi.org/10.1007/s10489-024-05777-4",
   "cites": 9,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Hierarchical Frequency-Based Upsampling and Refining for HEVC Compressed Video Enhancement",
@@ -845,7 +927,9 @@
   "doi": "10.1109/tcsvt.2024.3517840",
   "url": "https://doi.org/10.1109/tcsvt.2024.3517840",
   "cites": 9,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "GoLDFormer: A global–local deformable window transformer for efficient image restoration",
@@ -865,7 +949,9 @@
   "doi": "10.1016/j.jvcir.2024.104117",
   "url": "https://doi.org/10.1016/j.jvcir.2024.104117",
   "cites": 8,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Indoor Scene Reconstruction Using a Rotating Device and Multiple RGB-D Cameras",
@@ -886,7 +972,9 @@
   "doi": "10.1109/tim.2024.3420266",
   "url": "https://doi.org/10.1109/tim.2024.3420266",
   "cites": 5,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Neural image re-exposure",
@@ -907,7 +995,9 @@
   "doi": "10.1016/j.cviu.2024.104094",
   "url": "https://doi.org/10.1016/j.cviu.2024.104094",
   "cites": 5,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Rethinking Out-of-Distribution Detection From a Human-Centric Perspective",
@@ -929,7 +1019,9 @@
   "doi": "10.1007/s11263-024-02099-3",
   "url": "https://doi.org/10.1007/s11263-024-02099-3",
   "cites": 5,
-  "selected": true
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Enhanced local distribution learning for real image super-resolution",
@@ -948,7 +1040,9 @@
   "doi": "10.1016/j.cviu.2024.104092",
   "url": "https://doi.org/10.1016/j.cviu.2024.104092",
   "cites": 4,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "A Unified Asymmetric Knowledge Distillation Framework for Image Classification",
@@ -966,7 +1060,9 @@
   "doi": "10.1007/s11063-024-11606-z",
   "url": "https://doi.org/10.1007/s11063-024-11606-z",
   "cites": 3,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Body Joint Boundary Prototype Match for Few-Shot Remote Sensing Semantic Segmentation",
@@ -986,7 +1082,9 @@
   "doi": "10.1109/lgrs.2024.3464549",
   "url": "https://doi.org/10.1109/lgrs.2024.3464549",
   "cites": 3,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Learning degradation priors for reliable no-reference image quality assessment",
@@ -1006,7 +1104,9 @@
   "doi": "10.1016/j.jvcir.2024.104189",
   "url": "https://doi.org/10.1016/j.jvcir.2024.104189",
   "cites": 3,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Cross-Band Fusion for Multispectral Scene Classification",
@@ -1024,7 +1124,9 @@
   "doi": "10.1109/icsidp62679.2024.10869128",
   "url": "https://doi.org/10.1109/icsidp62679.2024.10869128",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Patch-based Cross-domain Adaptation for Few-shot Remote Sensing Scene Recognition",
@@ -1043,7 +1145,9 @@
   "doi": "10.1109/icsidp62679.2024.10868314",
   "url": "https://doi.org/10.1109/icsidp62679.2024.10868314",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Scale-adaptive UAV Geo-localization via Height-aware Partition Learning",
@@ -1062,7 +1166,9 @@
   "doi": "10.48550/arxiv.2412.11535",
   "url": "https://doi.org/10.48550/arxiv.2412.11535",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Transformer-Based Multi-Scale Feature Integration Network for Video Saliency Prediction",
@@ -1083,7 +1189,9 @@
   "doi": "10.1109/tcsvt.2023.3278410",
   "url": "https://doi.org/10.1109/tcsvt.2023.3278410",
   "cites": 76,
-  "selected": true
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "LFRNet: Localizing, Focus, and Refinement Network for Salient Object Detection of Surface Defects",
@@ -1105,7 +1213,9 @@
   "doi": "10.1109/tim.2023.3250302",
   "url": "https://doi.org/10.1109/tim.2023.3250302",
   "cites": 56,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Aggregating transformers and CNNs for salient object detection in optical remote sensing images",
@@ -1125,7 +1235,9 @@
   "doi": "10.1016/j.neucom.2023.126560",
   "url": "https://doi.org/10.1016/j.neucom.2023.126560",
   "cites": 50,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Improving Dynamic HDR Imaging with Fusion Transformer",
@@ -1145,7 +1257,9 @@
   "doi": "10.1609/aaai.v37i1.25107",
   "url": "https://doi.org/10.1609/aaai.v37i1.25107",
   "cites": 33,
-  "selected": true
+  "selected": true,
+  "rank": 9,
+  "project": ""
  },
  {
   "title": "Information-Containing Adversarial Perturbation for Combating Facial Manipulation Systems",
@@ -1165,7 +1279,9 @@
   "doi": "10.1109/tifs.2023.3262156",
   "url": "https://doi.org/10.1109/tifs.2023.3262156",
   "cites": 30,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "CANet: Context-aware Aggregation Network for Salient Object Detection of Surface Defects",
@@ -1186,7 +1302,9 @@
   "doi": "10.1016/j.jvcir.2023.103820",
   "url": "https://doi.org/10.1016/j.jvcir.2023.103820",
   "cites": 20,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Feature rectification and enhancement for no-reference image quality assessment",
@@ -1206,7 +1324,9 @@
   "doi": "10.1016/j.jvcir.2023.104030",
   "url": "https://doi.org/10.1016/j.jvcir.2023.104030",
   "cites": 10,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "CD-GAN: Commonsense-Driven Generative Adversarial Network with Hierarchical Refinement for Text-to-Image Synthesis",
@@ -1226,7 +1346,9 @@
   "doi": "10.34133/icomputing.0017",
   "url": "https://doi.org/10.34133/icomputing.0017",
   "cites": 6,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Depth-guided deep filtering network for efficient single image bokeh rendering",
@@ -1247,7 +1369,9 @@
   "doi": "10.1007/s00521-023-08852-y",
   "url": "https://doi.org/10.1007/s00521-023-08852-y",
   "cites": 6,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Towards Confidence-Aware Commonsense Knowledge Integration for Scene Graph Generation",
@@ -1267,7 +1391,9 @@
   "doi": "10.1109/icme55011.2023.00385",
   "url": "https://doi.org/10.1109/icme55011.2023.00385",
   "cites": 5,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Multi-stage reasoning on introspecting and revising bias for visual question answering",
@@ -1290,7 +1416,9 @@
   "doi": "10.1145/3616399",
   "url": "https://doi.org/10.1145/3616399",
   "cites": 4,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Caps-SSENet: An Improved Estimation Method for SAR Ship Size",
@@ -1312,7 +1440,9 @@
   "doi": "10.1109/lgrs.2023.3283442",
   "url": "https://doi.org/10.1109/lgrs.2023.3283442",
   "cites": 1,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Semantic Embedding Uncertainty Learning for Image and Text Matching",
@@ -1332,7 +1462,9 @@
   "doi": "10.1109/icme55011.2023.00153",
   "url": "https://doi.org/10.1109/icme55011.2023.00153",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Age-Invariant Face Recognition by Multi-Feature Fusion and Decomposition with Self-attention",
@@ -1354,7 +1486,9 @@
   "doi": "10.1145/3472810",
   "url": "https://doi.org/10.1145/3472810",
   "cites": 241,
-  "selected": true
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Edge-Guided Recurrent Positioning Network for Salient Object Detection in Optical Remote Sensing Images",
@@ -1374,7 +1508,9 @@
   "doi": "10.1109/tcyb.2022.3163152",
   "url": "https://doi.org/10.1109/tcyb.2022.3163152",
   "cites": 205,
-  "selected": true
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Toward Understanding and Boosting Adversarial Transferability From a Distribution Perspective",
@@ -1396,7 +1532,9 @@
   "doi": "10.1109/tip.2022.3211736",
   "url": "https://doi.org/10.1109/tip.2022.3211736",
   "cites": 79,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Constrained Predictive Filters for Single Image Bokeh Rendering",
@@ -1417,7 +1555,9 @@
   "doi": "10.1109/tci.2022.3171417",
   "url": "https://doi.org/10.1109/tci.2022.3171417",
   "cites": 26,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Bidirectional difference locating and semantic consistency reasoning for change captioning",
@@ -1440,7 +1580,9 @@
   "doi": "10.1002/int.22821",
   "url": "https://doi.org/10.1002/int.22821",
   "cites": 19,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "DomainPlus: Cross Transform Domain Learning towards High Dynamic Range Imaging",
@@ -1460,7 +1602,9 @@
   "doi": "10.1145/3503161.3547823",
   "url": "https://doi.org/10.1145/3503161.3547823",
   "cites": 18,
-  "selected": true
+  "selected": true,
+  "rank": 10,
+  "project": "https://github.com/Pan-xiaokai/DomainPlus-Network"
  },
  {
   "title": "SRI-Net: Similarity retrieval-based inference network for light field salient object detection",
@@ -1480,7 +1624,9 @@
   "doi": "10.1016/j.jvcir.2022.103721",
   "url": "https://doi.org/10.1016/j.jvcir.2022.103721",
   "cites": 8,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Rich Structural Index for Stereoscopic Image Quality Assessment",
@@ -1499,7 +1645,9 @@
   "doi": "10.3390/s22020499",
   "url": "https://doi.org/10.3390/s22020499",
   "cites": 6,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Deeper feature integration network for salient object detection of strip steel surface defects",
@@ -1518,7 +1666,9 @@
   "doi": "10.1117/1.jei.31.2.023013",
   "url": "https://doi.org/10.1117/1.jei.31.2.023013",
   "cites": 4,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Gain and Phase Calibration of Uniform Rectangular Arrays Based on Convex Optimization and Neural Networks",
@@ -1534,7 +1684,9 @@
   "doi": "10.3390/electronics11050718",
   "url": "https://doi.org/10.3390/electronics11050718",
   "cites": 4,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Learning Local Distribution for Extremely Efficient Single-Image Super-Resolution",
@@ -1552,7 +1704,9 @@
   "doi": "10.3390/electronics11091348",
   "url": "https://doi.org/10.3390/electronics11091348",
   "cites": 3,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Each Part Matters: Local Patterns Facilitate Cross-View Geo-Localization",
@@ -1572,7 +1726,9 @@
   "doi": "10.1109/tcsvt.2021.3061265",
   "url": "https://doi.org/10.1109/tcsvt.2021.3061265",
   "cites": 315,
-  "selected": true
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Dense Attention-Guided Cascaded Network for Salient Object Detection of Strip Steel Surface Defects",
@@ -1592,7 +1748,9 @@
   "doi": "10.1109/tim.2021.3132082",
   "url": "https://doi.org/10.1109/tim.2021.3132082",
   "cites": 142,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Dynamic Selective Network for RGB-D Salient Object Detection",
@@ -1614,7 +1772,9 @@
   "doi": "10.1109/tip.2021.3123548",
   "url": "https://doi.org/10.1109/tip.2021.3123548",
   "cites": 95,
-  "selected": true
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Learning Frequency Domain Priors for Image Demoireing",
@@ -1636,7 +1796,9 @@
   "doi": "10.1109/tpami.2021.3115139",
   "url": "https://doi.org/10.1109/tpami.2021.3115139",
   "cites": 84,
-  "selected": true
+  "selected": true,
+  "rank": 12,
+  "project": ""
  },
  {
   "title": "CBREN: Convolutional Neural Networks for Constant Bit Rate Video Quality Enhancement",
@@ -1656,7 +1818,9 @@
   "doi": "10.1109/tcsvt.2021.3123621",
   "url": "https://doi.org/10.1109/tcsvt.2021.3123621",
   "cites": 28,
-  "selected": false
+  "selected": true,
+  "rank": 11,
+  "project": ""
  },
  {
   "title": "Hard parameter sharing for compressing dense-connection-based image restoration network",
@@ -1677,7 +1841,9 @@
   "doi": "10.1117/1.jei.30.5.053025",
   "url": "https://doi.org/10.1117/1.jei.30.5.053025",
   "cites": 4,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Evolution of ICTs-empowered-identification: A general re-ranking method for person re-identification",
@@ -1698,7 +1864,9 @@
   "doi": "10.1016/j.patrec.2021.06.031",
   "url": "https://doi.org/10.1016/j.patrec.2021.06.031",
   "cites": 3,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Multi-Scale Fusion Networks with RGB Image Features for Depth Map Completion",
@@ -1714,7 +1882,9 @@
   "doi": "10.3724/sp.j.1089.2021.1886",
   "url": "https://doi.org/10.3724/sp.j.1089.2021.1886",
   "cites": 1,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "3D Indoor Scene Completion via Room Layout Estimation",
@@ -1735,7 +1905,9 @@
   "doi": "10.1088/1742-6596/2025/1/012102",
   "url": "https://doi.org/10.1088/1742-6596/2025/1/012102",
   "cites": 0,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Image Demoireing with Learnable Bandpass Filters",
@@ -1752,7 +1924,9 @@
   "doi": "10.1109/cvpr42600.2020.00369",
   "url": "https://doi.org/10.1109/cvpr42600.2020.00369",
   "cites": 125,
-  "selected": true
+  "selected": true,
+  "rank": 13,
+  "project": "https://github.com/zhenngbolun/Learnbale_Bandpass_Filter"
  },
  {
   "title": "NTIRE 2020 Challenge on Image Demoireing: Methods and Results",
@@ -1811,7 +1985,9 @@
   "doi": "10.1109/cvprw50498.2020.00238",
   "url": "https://doi.org/10.1109/cvprw50498.2020.00238",
   "cites": 38,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Build receptive pyramid for efficient color image compression artifact reduction",
@@ -1829,7 +2005,9 @@
   "doi": "10.1117/1.jei.29.3.033009",
   "url": "https://doi.org/10.1117/1.jei.29.3.033009",
   "cites": 2,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "Implicit Dual-Domain Convolutional Network for Robust Color Image Compression Artifact Reduction",
@@ -1847,7 +2025,9 @@
   "doi": "10.1109/tcsvt.2019.2931045",
   "url": "https://doi.org/10.1109/tcsvt.2019.2931045",
   "cites": 107,
-  "selected": true
+  "selected": true,
+  "rank": 14,
+  "project": "https://github.com/zhenngbolun/IDCN"
  },
  {
   "title": "AIM 2019 Challenge on Image Demoireing: Methods and Results",
@@ -1888,7 +2068,9 @@
   "doi": "10.1109/iccvw.2019.00438",
   "url": "https://doi.org/10.1109/iccvw.2019.00438",
   "cites": 41,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "AIM 2019 Challenge on Bokeh Effect Synthesis: Methods and Results",
@@ -1936,7 +2118,9 @@
   "doi": "10.1109/iccvw.2019.00444",
   "url": "https://doi.org/10.1109/iccvw.2019.00444",
   "cites": 40,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  },
  {
   "title": "S-Net: a scalable convolutional neural network for JPEG compression artifact reduction",
@@ -1953,6 +2137,8 @@
   "doi": "10.1117/1.jei.27.4.043037",
   "url": "https://doi.org/10.1117/1.jei.27.4.043037",
   "cites": 26,
-  "selected": false
+  "selected": false,
+  "rank": 0,
+  "project": ""
  }
 ]
